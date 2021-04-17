@@ -13,4 +13,6 @@ function drawLevel() {
     document.getElementById('level').innerHTML = drawOutput;
 };
 
+var level = mapLevel();
+
 drawLevel();

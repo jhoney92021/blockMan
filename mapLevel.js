@@ -36,6 +36,4 @@ function mapLevel() {
     console.log("mapping level");
 
     return level;
-}
-
-mapLevel();
+};
