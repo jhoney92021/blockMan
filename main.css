@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 .drawWidth{
     line-height: 0;
@@ -16,21 +17,24 @@
     width: 40px;
     display: inline-block
 }
-.playerObject{
-    background-color: red;
-    height: 20px;
-    width: 20px;
+#playerObject{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
     display: inline-block;
+    position: absolute;
+    left: 240px;
+    top: 240px;
 }
 .playerConsumable1 {
     background-color: teal;
-     height: 10px;
-     width: 10px;
+     height: 40px;
+     width: 40px;
      display: inline-block;
 }
 .playerConsumable2 {
     background-color: green;
-     height: 10px;
-     width: 10px;
+     height: 40px;
+     width: 40px;
      display: inline-block;
 }
